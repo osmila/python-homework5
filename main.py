@@ -1,6 +1,7 @@
 import random
 import task1_calc_sum_diff
 import task2_calc_sum_list_items
+import task3_variable_length_args
 
 # Task 1:
 # Напишите функцию calculations () так, чтобы она могла
@@ -13,8 +14,15 @@ import task2_calc_sum_list_items
 # print(f'Value 1 = {test_value_1}, value 2 = {test_value_2}')
 # sum_test, diff_test = task1_calc_sum_diff.calculations(test_value_1, test_value_2)
 # print(f'Sum = {sum_test}\nDiff = {diff_test}')
+#
+# # Task 2:
+# # Напишите функцию Python для суммирования всех чисел в списке.
+# print('\nTask 2: Calculate sum of list items:')
+# task2_calc_sum_list_items.print_calc_sum_list_result()
 
-# Task 2:
-# Напишите функцию Python для суммирования всех чисел в списке.
-print('\nTask 2: Calculate sum of list items:')
-task2_calc_sum_list_items.print_calc_sum_list_result()
+# Task 3:
+# Напишите функцию func () так, чтобы она могла принимать
+# аргументы переменной длины и выводить все значения
+# аргументов с индексом аргумента.
+print('\nTask 3: Calculate sum of list items:')
+task3_variable_length_args.variable_length_func(5, 6, 7, 'Hello')
