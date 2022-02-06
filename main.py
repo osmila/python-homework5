@@ -2,6 +2,7 @@ import random
 import task1_calc_sum_diff
 import task2_calc_sum_list_items
 import task3_variable_length_args
+import task4_employee_data
 
 # Task 1:
 # Напишите функцию calculations () так, чтобы она могла
@@ -19,10 +20,19 @@ import task3_variable_length_args
 # # Напишите функцию Python для суммирования всех чисел в списке.
 # print('\nTask 2: Calculate sum of list items:')
 # task2_calc_sum_list_items.print_calc_sum_list_result()
+#
+# # Task 3:
+# # Напишите функцию func () так, чтобы она могла принимать
+# # аргументы переменной длины и выводить все значения
+# # аргументов с индексом аргумента.
+# print('\nTask 3: Calculate sum of list items:')
+# task3_variable_length_args.variable_length_func(5, 6, 7, 'Hello')
 
-# Task 3:
-# Напишите функцию func () так, чтобы она могла принимать
-# аргументы переменной длины и выводить все значения
-# аргументов с индексом аргумента.
-print('\nTask 3: Calculate sum of list items:')
-task3_variable_length_args.variable_length_func(5, 6, 7, 'Hello')
+# Task 4:
+# Создайте функцию showEmployee () таким образом, чтобы она
+# принимала имя сотрудника и его зарплату и отображала и то, и
+# другое. Если в вызове функции отсутствует зарплата, присвойте
+# зарплате значение по умолчанию 9000.
+print('\nTask 4: Print employee name and salary:')
+task4_employee_data.print_employee_data(name='Petro', salary=5000)
+task4_employee_data.print_employee_data(name='Ivan')
