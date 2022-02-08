@@ -6,6 +6,7 @@ import task4_employee_data
 import task5_sum_digits_of_number
 import task6_fibonacci_number
 import task7_multiply_list_items
+import task8_power_of_two
 
 # Task 1:
 # Напишите функцию calculations () так, чтобы она могла
@@ -50,8 +51,15 @@ import task7_multiply_list_items
 # # Напишите рекурсивную функцию для вычисления числа Фибоначи
 # print('\nTask 6: Calculate Fibonacci number:')
 # task6_fibonacci_number.print_fibonacci_value()
+#
+# # Task 7:
+# # Напишите функцию для умножения всех чисел в списке. Рекурсивно
+# print('\nTask 7: Multiply list items:')
+# task7_multiply_list_items.print_res_multiply_list_items()
 
-# Task 7:
-# Напишите функцию для умножения всех чисел в списке. Рекурсивно
-print('\nTask 7: Multiply list items:')
-task7_multiply_list_items.print_res_multiply_list_items()
+# Task 8:
+# Дано натуральное число N. Выведите слово YES, если число N
+# является точной степенью двойки, или слово NO в противном случае. 8
+# - YES, 3 - NO
+print('\nTask 8: Check if current value is a power of 2:')
+task8_power_of_two.print_power_of_two()
