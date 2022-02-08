@@ -5,6 +5,7 @@ import task3_variable_length_args
 import task4_employee_data
 import task5_sum_digits_of_number
 import task6_fibonacci_number
+import task7_multiply_list_items
 
 # Task 1:
 # Напишите функцию calculations () так, чтобы она могла
@@ -44,8 +45,13 @@ import task6_fibonacci_number
 # # Напишите рекурсивную функцию
 # print('\nTask 5: Sum digits of the natural number:')
 # task5_sum_digits_of_number.print_sum_digits_number()
+#
+# # Task 6:
+# # Напишите рекурсивную функцию для вычисления числа Фибоначи
+# print('\nTask 6: Calculate Fibonacci number:')
+# task6_fibonacci_number.print_fibonacci_value()
 
-# Task 6:
-# Напишите рекурсивную функцию для вычисления числа Фибоначи
-print('\nTask 6: Calculate Fibonacci number:')
-task6_fibonacci_number.print_fibonacci_value()
+# Task 7:
+# Напишите функцию для умножения всех чисел в списке. Рекурсивно
+print('\nTask 7: Multiply list items:')
+task7_multiply_list_items.print_res_multiply_list_items()
